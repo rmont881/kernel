@@ -1,0 +1,4 @@
+kernel
+kc.o
+kasm.o
+.vscode/

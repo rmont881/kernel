@@ -1,0 +1,8 @@
+PIC : Programmable Interrupt Controller
+
+
+Keyboard on I/O ports 0x60 and 0x64. 0x60 is the data, 0x64 is the status
+
+PIC has offset value stored during init, adds that number to the interrupt line to form the Interrupt Number.
+Processor then looks up an IDT(Interrupt Descripter Table) to find the input handler address corrosponding to 
+the interrupt number.
