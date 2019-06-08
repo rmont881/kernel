@@ -14,7 +14,7 @@ global write_port
 global load_idt
 
 extern kmain                                ;kmain is in c file
-external keyboard_handler_main
+extern keyboard_handler_main
 
 read_port:
     mov edx, [esp + 4]
